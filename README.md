@@ -1,4 +1,4 @@
-# Local Voice Translator
+# Local Voice Translator.
 
 Gradio 기반 음성 통역 웹 데모입니다. 사용자가 입력한 음성을 STT로 텍스트화하고, 로컬 번역 모델로 한국어와 외국어 사이를 번역한 뒤, 입력 음성을 참조 음성으로 사용해 비슷한 목소리의 번역 음성을 생성합니다.
 
