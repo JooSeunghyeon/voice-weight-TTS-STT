@@ -36,7 +36,7 @@ python app.py
 
 1. Kaggle Notebook을 생성합니다.
 2. Settings에서 Accelerator를 GPU로 설정합니다.
-3. Kaggle 기본 Python이 `TTS` 패키지와 맞지 않을 수 있으므로, 노트북에서 Python 3.10 conda 환경을 만든 뒤 실행합니다.
+3. Kaggle 기본 Python이 `TTS` 패키지와 맞지 않을 수 있으므로, 노트북에서 Miniforge 기반 Python 3.10 환경을 만든 뒤 실행합니다.
 4. [`notebooks/kaggle_voice_translator.ipynb`](notebooks/kaggle_voice_translator.ipynb)의 셀을 순서대로 실행합니다.
 5. Cloudflare 셀에서 출력되는 `https://*.trycloudflare.com` 주소를 Gradio public URL로 사용합니다.
 6. Share 설정에서 notebook 권한을 Public으로 변경합니다.
